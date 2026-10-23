@@ -1,0 +1,2 @@
+-e ../polysync
+-e .
