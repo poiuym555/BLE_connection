@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: bluetooth-rssi
+Version: 0.1.0
+Summary: Standalone ESP32-to-jETPAK Bluetooth signal recorder
+Requires-Python: <3.11,>=3.10
+Requires-Dist: polysync>=1.1.2
+Requires-Dist: numpy<2,>=1.24
+Requires-Dist: wxPython>=4.2
+Requires-Dist: wxasync>=0.49
+Requires-Dist: pyserial>=3.5

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=67.7"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bluetooth-rssi"
+version = "0.1.0"
+description = "Standalone ESP32-to-jETPAK Bluetooth signal recorder"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "polysync>=1.1.2",
+    "numpy>=1.24,<2",
+    "wxPython>=4.2",
+    "wxasync>=0.49",
+    "pyserial>=3.5",
+]
+
+[project.scripts]
+bluetooth-rssi = "bluetooth_rssi:main"
+
+[tool.setuptools]
+py-modules = ["bluetooth_rssi"]

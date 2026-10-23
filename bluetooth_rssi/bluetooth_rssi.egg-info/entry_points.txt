@@ -1,0 +1,2 @@
+[console_scripts]
+bluetooth-rssi = bluetooth_rssi:main
