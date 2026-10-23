@@ -1,5 +1,0 @@
-polysync>=1.1.2
-numpy<2,>=1.24
-wxPython>=4.2
-wxasync>=0.49
-pyserial>=3.5
